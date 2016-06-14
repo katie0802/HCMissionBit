@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <h2> 
+     <titl> Leave the cat!</titl>
+        </h2>
+    <link rel ="stylesheet" type ="text/css" href ="stylesheet3.css">
+    </head>
+    <body> 
+        
+        <p> The next week you go back to hang out in the park and you see a little girl crying over her dead cat. You now have to live with a guilty consciousness for the rest of yor life. 
+        </p>
+                <p> <a href = game.html> Try again.</a>
+               </p>
+        <img src = "http://www.wallcoo.net/photography/innocence_baby_photography/images/%5Bwallcoo_com%5D_Baby_Photography_of_A%20girl%20with%20curly%20hair%20crying_ISPC006073.jpg"/>
+    </body>
