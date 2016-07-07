@@ -1,4 +1,4 @@
-    var game = new Phaser.Game(640, 480, Phaser.CANVAS, 'game');
+ var game = new Phaser.Game(640, 480, Phaser.CANVAS, 'game');
 
     var PhaserGame = function (game) {
 
@@ -9,9 +9,9 @@
         this.safetile = 1;
         this.gridsize = 32;
 
-        this.speed = 80;
+        this.speed = 150;
         this.threshold = 3;
-        this.turnSpeed = 80;
+        this.turnSpeed = 150;
 
         this.marker = new Phaser.Point();
         this.turnPoint = new Phaser.Point();
@@ -38,7 +38,6 @@
             //  Remove the next 2 lines if running locally
             this.load.baseURL = 'http://files.phaser.io.s3.amazonaws.com/codingtips/issue005/';
             this.load.crossOrigin = 'anonymous';
-//            this.load.image('blueTile', 'blueTile.png');
 
             this.load.tilemap('map', 'assets/maze.json', null, Phaser.Tilemap.TILED_JSON);
             this.load.image('tiles', 'assets/tiles.png');
@@ -49,7 +48,7 @@
         },
 
         create: function () {
-            
+
             this.map = this.add.tilemap('map');
             this.map.addTilesetImage('tiles', 'tiles');
 
